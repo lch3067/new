@@ -1,0 +1,6 @@
+#body {
+  flex-grow: 1; /* 남은 공간을 모두 차지 */
+  background-color: #fff;
+  height: calc(100vh - 50px); /* Header 높이를 뺀 나머지 높이 */
+  box-sizing: border-box; /* 패딩을 너비에 포함 */
+}

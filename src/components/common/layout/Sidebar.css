@@ -1,0 +1,8 @@
+#sidebar {
+  width: 200px; /* 원하는 너비에 따라 조정 */
+  background-color: #222; /* 원하는 배경색 */
+  color: white;
+  padding: 20px;
+  height: calc(100vh - 50px); /* Header 높이를 뺀 나머지 높이 */
+  box-sizing: border-box; /* 패딩을 너비에 포함 */
+}

@@ -1,0 +1,5 @@
+.App {
+  display: flex;
+  margin-top: 100px; /* Header의 높이만큼 상단 여백을 추가 */
+  flex-grow: 1;
+}
