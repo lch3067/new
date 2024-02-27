@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 import {} from "./inputmenuStyle";
-import TreeNodeProps from "../../../codeControll/component/Treecomponent/type/treemenutype";
+import {InputmenuProps} from "../../../codeControll/component/Treecomponent/type/treemenutype";
 
-interface InputmenuProps {
-  content: TreeNodeProps["node"] | null;
-}
+
 
 function Inputmenu({ content }: InputmenuProps) {
   const [id, setId] = useState("");

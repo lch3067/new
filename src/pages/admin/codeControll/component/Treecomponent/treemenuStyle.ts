@@ -6,11 +6,7 @@ const TreeNodeContainer = styled.div`
 `;
 
 const TreeNode = styled.div`
-  cursor: pointer;
-  background-color: yellow;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 5px;
+
 `;
 
 export { TreeNodeContainer, TreeNode };
